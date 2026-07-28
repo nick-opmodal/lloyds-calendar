@@ -1,0 +1,70 @@
+# Editorial commentary rules for the Opmodal Lloyd's Deadlines calendar.
+#
+# Each rule:
+#   match:   case-insensitive regex tested against "title + description + category"
+#   comment: the 'Why it matters' text attached to matching events
+#   month:   (optional) "YYYY-MM" - only apply in that month, for date-specific takes
+#
+# First matching rule wins, so put specific rules above general ones.
+# This file is the editorial product - update it weekly alongside the newsletter.
+
+- match: "SBF.*(submission|return).*Phase 1|Phase 1.*SBF"
+  comment: >-
+    The big one. The SBF is each syndicate's business plan for the next year of
+    account - it drives capital, stamp capacity and Lloyd's oversight
+    categorisation. Our SBF season preview: https://opmodal.com/articles/sbf-season
+
+- match: "pre-empt|de-empt|pre emption"
+  comment: >-
+    The first hard signal of next year's capacity appetite. Pre-emption
+    intentions are the market's earliest tell on where rates are heading.
+
+- match: "DyGIST|Dynamic General Insurance Stress Test"
+  comment: >-
+    Lloyd's flagship stress test. Our primer on what DyGIST results signal
+    about market resilience: https://opmodal.com/articles/dygist-explained
+
+- match: "Realistic Disaster Scenario|RDS|RDL"
+  comment: >-
+    Peak US hurricane season timing is no accident. Our look at how RDS
+    scenarios have evolved: https://opmodal.com/articles/rds-evolution
+
+- match: "QMB"
+  comment: >-
+    The Quarterly Monitoring Return is the performance data Lloyd's uses to
+    track plan versus actual. A weak QMB invites harder questions at SBF review.
+
+- match: "Member Modeller"
+  comment: >-
+    Projected member ECA positions - the unofficial start of the
+    coming-into-line conversation. Capital teams, refresh your screens.
+
+- match: "cash call"
+  comment: >-
+    Notifications for member cash calls. Which syndicates are calling cash
+    versus releasing profit says a lot about the shape of recent years of account.
+
+- match: "coming into line|\\bCIL\\b"
+  comment: >-
+    Coming into line: members must show funds at Lloyd's meet their capital
+    requirement before underwriting the new year of account.
+
+- match: "QCT|Quarterly Corridor Test"
+  comment: >-
+    The Quarterly Corridor Test checks member capital sits within tolerance of
+    ECA. Failures trigger FAL re-arrangement or top-up deadlines within weeks.
+
+- match: "Flash Report"
+  comment: >-
+    First early read on quarterly syndicate performance, ahead of the formal
+    accounts submission.
+
+- match: "LCR|Lloyd's Capital Return"
+  comment: >-
+    The capital return that converts business plans into capital requirements.
+    Early-view submissions here shape autumn coming-into-line numbers.
+
+- match: "syndicate accounts"
+  comment: >-
+    The formal quarterly accounts. Watch reserve movements - they feed straight
+    into QCT positions.
