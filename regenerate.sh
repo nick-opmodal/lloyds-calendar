@@ -3,7 +3,7 @@
 # Run by Hermes cron: Mondays at 6am
 #
 # 1. Downloads the latest Lloyd's XLSX, generates ICS feeds
-# 2. Commits and pushes to GitHub Pages (calendar.submissionmarkets.news)
+# 2. Commits and pushes to GitHub Pages (calendar.subscriptionmarket.news)
 
 set -euo pipefail
 
@@ -32,5 +32,5 @@ if git diff --cached --quiet; then
 else
     git commit -m "Weekly regeneration: $(date '+%Y-%m-%d') — $FULL_COUNT events ($CURATED_COUNT curated)"
     git push
-    echo "Pushed to GitHub Pages → https://calendar.submissionmarkets.news/"
+    echo "Pushed to GitHub Pages → https://calendar.subscriptionmarket.news/"
 fi
