@@ -27,49 +27,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:lloyds-20260730-c0f08aa5095f5327@opmodal.com
-DTSTAMP:20260728T205613Z
-DTSTART;TZID=Europe/London:20260730T170000
-SUMMARY:Lloyd's: Syndicate Reporting — Q2 2026 Syndicate Flash Report t
- o be uploaded onto Secureshare by 5pm
-DESCRIPTION:Q2 2026 Syndicate Flash Report to be uploaded onto Secureshar
- e by 5pm\n\n▸ WHY IT MATTERS (Submission Markets): First early read on
-  quarterly syndicate performance\, ahead of the formal accounts submissi
- on.\n\nApplies to: Managing Agents\n\nOfficial entry: https://www.lloyds
- .com/market-resources/business-timetable
-URL:https://www.lloyds.com/market-resources/business-timetable
-CATEGORIES:Agency reporting
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Lloyd’s deadline tomorrow: Syndicate Reporting
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:lloyds-20260731-63afa506baec5509@opmodal.com
-DTSTAMP:20260728T205613Z
-DTSTART;TZID=Europe/London:20260731T170000
-SUMMARY:Lloyd's: Dynamic General Insurance Stress Test (DyGIST) - Final T
- emplate — Managing Agent to submit the DyGIST returns via the Major Cl
- aims Secur
-DESCRIPTION:Managing Agent to submit the DyGIST returns via the Major Cla
- ims SecureShare in the 'DyGIST Return' folder.\n\n▸ WHY IT MATTERS (Su
- bmission Markets): Lloyd's flagship stress test. Our primer on what DyGI
- ST results signal about market resilience: https://opmodal.com/articles/
- dygist-explained\n\nApplies to: Managing Agents\n\nOfficial entry: https
- ://www.lloyds.com/market-resources/business-timetable
-URL:https://www.lloyds.com/market-resources/business-timetable
-CATEGORIES:Performance Management Data Return
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Lloyd’s deadline tomorrow: Dynamic General Insurance Stress
-  Test (DyGIST) - Final Template
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:lloyds-20260806-b796b249df317dfd@opmodal.com
-DTSTAMP:20260728T205613Z
+DTSTAMP:20260803T065310Z
 DTSTART;TZID=Europe/London:20260806T140000
 SUMMARY:Lloyd's: QMB Return(s) — Managing agents to submit QMB for Q2 2
  026 before 14:00 via Market Data
@@ -89,7 +48,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20260807-01ca2cb14653545d@opmodal.com
-DTSTAMP:20260728T205613Z
+DTSTAMP:20260803T065310Z
 DTSTART;TZID=Europe/London:20260807T120000
 SUMMARY:Lloyd's: FAL/DCP/CIL — Indicative Member Modeller Software rele
  ase to present projected rollo
@@ -111,7 +70,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20260811-4f35f865e5763d41@opmodal.com
-DTSTAMP:20260728T205613Z
+DTSTAMP:20260803T065310Z
 DTSTART;TZID=Europe/London:20260811T170000
 SUMMARY:Lloyd's: Syndicate Reporting — Q2 2026 Syndicate Accounts Submi
  ssion to be submitted via Corefiling p
@@ -130,7 +89,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20260814-c3c44ec7f0ef4909@opmodal.com
-DTSTAMP:20260728T205613Z
+DTSTAMP:20260803T065310Z
 DTSTART;TZID=Europe/London:20260814T120000
 SUMMARY:Lloyd's: FAL/ DCP/ CIL — Member Modeller update for Q3 Quarterl
  y Corridor Test ECAs.
@@ -149,7 +108,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20260818-054f618b991cfe70@opmodal.com
-DTSTAMP:20260728T205613Z
+DTSTAMP:20260803T065310Z
 DTSTART;VALUE=DATE:20260818
 SUMMARY:Lloyd's: FAL — Publication of the Q3 Quarterly Corridor Test (Q
  CT).
@@ -168,7 +127,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20260826-f4543db4ababa182@opmodal.com
-DTSTAMP:20260728T205613Z
+DTSTAMP:20260803T065310Z
 DTSTART;VALUE=DATE:20260826
 SUMMARY:Lloyd's: Distribution — Release of Open year profits can commen
  ce\, subject to QCT
@@ -188,7 +147,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20260826-cb60f828759d18bf@opmodal.com
-DTSTAMP:20260728T205613Z
+DTSTAMP:20260803T065310Z
 DTSTART;TZID=Europe/London:20260826T120000
 SUMMARY:Lloyd's: Distribution — Deadline for Managing Agents to notify 
  Member Services of any interim
@@ -208,7 +167,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20260827-05de21be811407a4@opmodal.com
-DTSTAMP:20260728T205613Z
+DTSTAMP:20260803T065310Z
 DTSTART;VALUE=DATE:20260827
 SUMMARY:Lloyd's: Legacy RI Transaction for Q1 QCT — Final date for noti
  fication to Lloyd's of a ceding syndicate's intenti
@@ -229,7 +188,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20260827-3d90445088aaf04b@opmodal.com
-DTSTAMP:20260728T205613Z
+DTSTAMP:20260803T065310Z
 DTSTART;TZID=Europe/London:20260827T120000
 SUMMARY:Lloyd's: Realistic Disaster Scenarios Light Return (RDL) — Mana
  ging Agent to submit Lloyd's Realistic Disaster Scenario Light Ret
@@ -252,7 +211,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20260901-d6da1b9c205e431f@opmodal.com
-DTSTAMP:20260728T205613Z
+DTSTAMP:20260803T065310Z
 DTSTART;TZID=Europe/London:20260901T130000
 SUMMARY:Lloyd's: Phase 1 – 2027 YOA SBF return submission deadline by 1
  pm — 2027 YOA SBF return and Guidance will be available in MDC from 6t
@@ -275,7 +234,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20260901-cd73ba7cfb51377e@opmodal.com
-DTSTAMP:20260728T205613Z
+DTSTAMP:20260803T065310Z
 DTSTART;TZID=Europe/London:20260901T120000
 SUMMARY:Lloyd's: Pre-emptions — Managing Agents of non-aligned syndicat
  es to submit the intention form
@@ -295,7 +254,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20260902-cb9ddf3724e8fdf1@opmodal.com
-DTSTAMP:20260728T205613Z
+DTSTAMP:20260803T065310Z
 DTSTART;VALUE=DATE:20260902
 SUMMARY:Lloyd's: FAL — Deadline for FAL re-arrangement applications for
   Members who have a Q3
@@ -315,7 +274,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20260904-d2e086b5f297ba8c@opmodal.com
-DTSTAMP:20260728T205613Z
+DTSTAMP:20260803T065310Z
 DTSTART;TZID=Europe/London:20260904T130000
 SUMMARY:Lloyd's: LCR — Phase 1 syndicates to submit the final Lloyd's C
  apital Return (LCR) ba
@@ -342,7 +301,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20260909-d725c3d0882c34ec@opmodal.com
-DTSTAMP:20260728T205613Z
+DTSTAMP:20260803T065310Z
 DTSTART;VALUE=DATE:20260909
 SUMMARY:Lloyd's: FAL — Deadline for FAL re-arrangement applications for
   Members who have pass
@@ -362,7 +321,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20260910-1f4c60e28079a1a2@opmodal.com
-DTSTAMP:20260728T205613Z
+DTSTAMP:20260803T065310Z
 DTSTART;TZID=Europe/London:20260910T130000
 SUMMARY:Lloyd's: LCR — Validation - Phase 1 syndicates to submit Valida
  tion report\, by 1pm\, v
@@ -383,7 +342,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20260916-7dc4e9c5190fd449@opmodal.com
-DTSTAMP:20260728T205613Z
+DTSTAMP:20260803T065310Z
 DTSTART;VALUE=DATE:20260916
 SUMMARY:Lloyd's: FAL — Deadline for receipt/settlement of additional as
  sets for Members who h
@@ -403,7 +362,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20260917-2cfb68a9505d49ad@opmodal.com
-DTSTAMP:20260728T205613Z
+DTSTAMP:20260803T065310Z
 DTSTART;TZID=Europe/London:20260917T120000
 SUMMARY:Lloyd's: FAL/DCP/CIL — Member Modeller software updated for Pha
  se 1 syndicates’ unapproved SB
@@ -424,7 +383,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20260917-0e2cbd3f21989820@opmodal.com
-DTSTAMP:20260728T205613Z
+DTSTAMP:20260803T065310Z
 DTSTART;TZID=Europe/London:20260917T120000
 SUMMARY:Lloyd's: LCR — Phase 2 syndicates to submit the final Lloyd's C
  apital Return (LCR) ba
@@ -440,6 +399,27 @@ DESCRIPTION:LCR - Phase 2 syndicates to submit the final Lloyd's Capital
  to capital requirements. Early-view submissions here shape autumn coming
  -into-line numbers.\n\nApplies to: Managing Agents\n\nOfficial entry: ht
  tps://www.lloyds.com/market-resources/business-timetable
+URL:https://www.lloyds.com/market-resources/business-timetable
+CATEGORIES:LCR
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Lloyd’s deadline tomorrow: LCR
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lloyds-20260924-e26c483bd2c5311c@opmodal.com
+DTSTAMP:20260803T065310Z
+DTSTART;TZID=Europe/London:20260924T130000
+SUMMARY:Lloyd's: LCR — Validation - Phase 2 syndicates to submit Valida
+ tion report\, by 1pm\, v
+DESCRIPTION:Validation - Phase 2 syndicates to submit Validation report\,
+  by 1pm\, via SecureShare (Lloyds.com>ToolsandSystems>SecureShare>MRC - 
+ Syndicate Capital Setting) if not included with the Phase 2 LCR.\n\n▸ 
+ WHY IT MATTERS (Submission Markets): The capital return that converts bu
+ siness plans into capital requirements. Early-view submissions here shap
+ e autumn coming-into-line numbers.\n\nApplies to: Managing Agents\n\nOff
+ icial entry: https://www.lloyds.com/market-resources/business-timetable
 URL:https://www.lloyds.com/market-resources/business-timetable
 CATEGORIES:LCR
 BEGIN:VALARM
