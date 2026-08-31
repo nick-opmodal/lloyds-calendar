@@ -26,6 +26,8 @@ Subscribers add it once ("Subscribe from web" in Outlook / "New Calendar Subscri
 in Apple Calendar) and receive every weekly regeneration automatically.
 """
 
+from __future__ import annotations
+
 import argparse
 import hashlib
 import io
@@ -35,6 +37,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 XLSX_URL = "https://www.lloyds.com/market-resources/business-timetable/xlsx"
+XLS_URL = "https://www.lloyds.com/market-resources/business-timetable/xls"
 TIMETABLE_URL = "https://www.lloyds.com/market-resources/business-timetable"
 CAL_NAME = "Lloyd's Deadlines - by Opmodal"
 CAL_DESC = (
@@ -57,7 +60,7 @@ COLUMN_ALIASES = {
     "description":     ["submission instructions"],
     "additional_info": ["additionalinformation", "additional information"],
     "category":        ["categories"],
-    "participant":     ["market participant", "participant", "audience"],
+    "participant":     ["market participant", "particpant", "participant", "audience"],
     "region":          ["region"],
     "time":            ["deadline time", "time due", "time"],
 }
@@ -71,14 +74,32 @@ EXCLUDE_CATEGORIES: list[str] = []
 #  Fetch & parse                                                              #
 # --------------------------------------------------------------------------- #
 
-def download_xlsx() -> bytes:
+def download_timetable() -> bytes:
+    """Download the timetable export. Lloyd's changed the export endpoint from
+    .xlsx to a legacy .xls (NPOI-generated OLE2) in Aug 2026; try xlsx first,
+    fall back to xls, retry transient failures (the site 504s under load)."""
+    import time
+
     import requests
-    r = requests.get(XLSX_URL, timeout=60, headers={"User-Agent": "OpmodalCalendarBot/1.0"})
-    r.raise_for_status()
-    ct = r.headers.get("content-type", "")
-    if "spreadsheet" not in ct and not r.content[:2] == b"PK":
-        raise RuntimeError(f"Unexpected content-type from Lloyd's export: {ct}")
-    return r.content
+
+    urls = (XLSX_URL, XLS_URL)
+    last_err: Exception | None = None
+    for attempt in range(3):
+        for url in urls:
+            try:
+                r = requests.get(url, timeout=60,
+                                 headers={"User-Agent": "OpmodalCalendarBot/1.0"})
+                r.raise_for_status()
+                content = r.content
+                if content[:2] == b"PK" or content[:4] == b"\xd0\xcf\x11\xe0":
+                    return content
+                last_err = RuntimeError(
+                    f"unexpected file format from {url} ({len(content)} bytes)"
+                )
+            except Exception as e:  # noqa: BLE001 - retry whatever the site throws
+                last_err = e
+        time.sleep(10 * (attempt + 1))
+    raise RuntimeError(f"could not download Lloyd's timetable export: {last_err}")
 
 
 def detect_columns(header_cells: list) -> dict:
@@ -94,12 +115,18 @@ def detect_columns(header_cells: list) -> dict:
     return mapping
 
 
-def parse_rows(xlsx_bytes: bytes, inspect: bool = False) -> list[dict]:
-    import openpyxl
-    wb = openpyxl.load_workbook(io.BytesIO(xlsx_bytes), read_only=True, data_only=True)
-    ws = wb.active
-    rows = [[c for c in row] for row in ws.iter_rows(values_only=True)]
-    wb.close()
+def parse_rows(data_bytes: bytes, inspect: bool = False) -> list[dict]:
+    if data_bytes[:2] == b"PK":
+        import openpyxl
+        wb = openpyxl.load_workbook(io.BytesIO(data_bytes), read_only=True, data_only=True)
+        ws = wb.active
+        rows = [[c for c in row] for row in ws.iter_rows(values_only=True)]
+        wb.close()
+    else:
+        # Legacy .xls (OLE2) — NPOI export. Calamine reads both formats.
+        from python_calamine import CalamineWorkbook
+        wb = CalamineWorkbook.from_filelike(io.BytesIO(data_bytes))
+        rows = wb.get_sheet_by_index(0).to_python()
 
     # Find the header row: first row whose cells match a 'date' alias AND a 'title' alias.
     header_idx, mapping = None, {}
@@ -362,7 +389,7 @@ def main():
                     help="include only events that matched a commentary rule")
     args = ap.parse_args()
 
-    xlsx = Path(args.xlsx).read_bytes() if args.xlsx else download_xlsx()
+    xlsx = Path(args.xlsx).read_bytes() if args.xlsx else download_timetable()
     events = parse_rows(xlsx, inspect=args.inspect)
 
     today = date.today()
