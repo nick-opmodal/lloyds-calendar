@@ -39,6 +39,10 @@ from pathlib import Path
 XLSX_URL = "https://www.lloyds.com/market-resources/business-timetable/xlsx"
 XLS_URL = "https://www.lloyds.com/market-resources/business-timetable/xls"
 TIMETABLE_URL = "https://www.lloyds.com/market-resources/business-timetable"
+# lloyds.com started returning 403 for bot-looking User-Agents (discovered
+# 2026-09-14; OpmodalCalendarBot/1.0 worked until 2026-09-07). Browser UA passes.
+BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+              "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36")
 CAL_NAME = "Lloyd's Deadlines - by Opmodal"
 CAL_DESC = (
     "Key Lloyd's business timetable deadlines with commentary from the "
@@ -88,7 +92,7 @@ def download_timetable() -> bytes:
         for url in urls:
             try:
                 r = requests.get(url, timeout=60,
-                                 headers={"User-Agent": "OpmodalCalendarBot/1.0"})
+                                 headers={"User-Agent": BROWSER_UA})
                 r.raise_for_status()
                 content = r.content
                 if content[:2] == b"PK" or content[:4] == b"\xd0\xcf\x11\xe0":
