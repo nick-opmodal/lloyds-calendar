@@ -1,36 +1,38 @@
 #!/bin/bash
-# Weekly Lloyds Deadline Calendar regeneration
-# Run by Hermes cron: Mondays at 6am
-#
-# 1. Downloads the latest Lloyd's XLSX, generates ICS feeds
-# 2. Commits and pushes to GitHub Pages (calendar.subscriptionmarket.news)
+# Regenerate the Lloyds Deadline Calendar ICS feed.
+# Called weekly by cron (Mondays 06:00).
 
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-VENV_PYTHON="$HOME/.hermes/hermes-agent/venv/bin/python"
+PYTHON="$SCRIPT_DIR/.venv/bin/python"
 
-# Full feed (all deadlines)
-"$VENV_PYTHON" "$SCRIPT_DIR/generate_lloyds_calendar.py" -o "$SCRIPT_DIR/lloyds-deadlines.ics" 2>&1
-
-# Curated feed (commentary only)
-"$VENV_PYTHON" "$SCRIPT_DIR/generate_lloyds_calendar.py" --curated-only -o "$SCRIPT_DIR/lloyds-deadlines-curated.ics" 2>&1
-
-FULL_COUNT=$(grep -c 'BEGIN:VEVENT' "$SCRIPT_DIR/lloyds-deadlines.ics")
-CURATED_COUNT=$(grep -c 'BEGIN:VEVENT' "$SCRIPT_DIR/lloyds-deadlines-curated.ics")
-
-echo ""
-echo "Calendar regenerated: $(date '+%Y-%m-%d %H:%M')"
-echo "Full feed:    $FULL_COUNT events ($(stat -f%z "$SCRIPT_DIR/lloyds-deadlines.ics") bytes)"
-echo "Curated feed: $CURATED_COUNT events ($(stat -f%z "$SCRIPT_DIR/lloyds-deadlines-curated.ics") bytes)"
-
-# Push to GitHub Pages
 cd "$SCRIPT_DIR"
-git add lloyds-deadlines.ics lloyds-deadlines-curated.ics
-if git diff --cached --quiet; then
-    echo "No changes to push"
+
+echo "=== Lloyds Deadline Calendar Regeneration — $(date '+%Y-%m-%d %H:%M') ==="
+
+# Generate ICS files
+echo "→ Generating ICS feeds..."
+$PYTHON generate_lloyds_calendar.py --weeks 12 -o lloyds-deadlines.ics
+$PYTHON generate_lloyds_calendar.py --weeks 12 --curated-only -o lloyds-deadlines-curated.ics
+
+# Git commit if there are changes
+if ! git diff --quiet lloyds-deadlines.ics lloyds-deadlines-curated.ics 2>/dev/null; then
+    git add lloyds-deadlines.ics lloyds-deadlines-curated.ics
+    git commit -m "Weekly regeneration — $(date '+%Y-%m-%d')" 2>/dev/null || true
+    echo "→ Changes committed."
 else
-    git commit -m "Weekly regeneration: $(date '+%Y-%m-%d') — $FULL_COUNT events ($CURATED_COUNT curated)"
-    git push
-    echo "Pushed to GitHub Pages → https://calendar.subscriptionmarket.news/"
+    echo "→ No changes to commit."
 fi
+
+# Push to GitHub Pages (the feed is served from main at calendar.subscriptionmarket.news).
+# Self-healing: pushes whenever local is ahead of origin, not just on regeneration days.
+if [ -n "$(git rev-list origin/main..HEAD 2>/dev/null)" ]; then
+    git pull --rebase 2>/dev/null || true
+    git push origin main
+    echo "→ Pushed to GitHub Pages: $(git rev-parse --short HEAD)"
+else
+    echo "→ Nothing to push (origin up to date)."
+fi
+
+echo "Done."
