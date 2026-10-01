@@ -27,177 +27,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:lloyds-20260928-18e808ecbd92ef23@opmodal.com
-DTSTAMP:20260928T050012Z
-DTSTART;TZID=Europe/London:20260928T130000
-SUMMARY:Lloyd's: Phase 3 – 2027 YOA SBF return submission deadline by 1
- pm — 2027 YOA SBF return and Guidance will be available in MDC from 6t
- h Jul
-DESCRIPTION:2027 YOA SBF return and Guidance will be available in MDC fro
- m 6th July.\n\nApplies to: Syndicates\n\nOfficial entry: https://www.llo
- yds.com/market-resources/business-timetable
-URL:https://www.lloyds.com/market-resources/business-timetable
-CATEGORIES:Syndicate Business Planning
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Lloyd’s deadline tomorrow: Phase 3 – 2027 YOA SBF return 
- submission deadline by 1pm
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:lloyds-20260929-43460198d853c7d7@opmodal.com
-DTSTAMP:20260928T050012Z
-DTSTART;VALUE=DATE:20260929
-SUMMARY:Lloyd's: FAL — Deadline for receipt/settlement of additional as
- sets or releases for a
-DESCRIPTION:Deadline for receipt/settlement of additional assets or relea
- ses for all Members without a Q3 QCT failure.\n\n▸ WHY IT MATTERS (Sub
- mission Markets): The Quarterly Corridor Test checks member capital sits
-  within tolerance of ECA. Failures trigger FAL re-arrangement or top-up 
- deadlines within weeks.\n\nApplies to: Members\n\nOfficial entry: https:
- //www.lloyds.com/market-resources/business-timetable
-URL:https://www.lloyds.com/market-resources/business-timetable
-CATEGORIES:FAL
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Lloyd’s deadline tomorrow: FAL
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:lloyds-20260930-c858985591caaac5@opmodal.com
-DTSTAMP:20260928T050012Z
-DTSTART;TZID=Europe/London:20260930T120000
-SUMMARY:Lloyd's: Auction — Deadline for submission of Auction Forms A &
-  D if intending to partici
-DESCRIPTION:Deadline for submission of Auction Forms A & D if intending t
- o participate in the forthcoming Capacity Auctions.\n\nApplies to: Membe
- rs\n\nOfficial entry: https://www.lloyds.com/market-resources/business-t
- imetable
-URL:https://www.lloyds.com/market-resources/business-timetable
-CATEGORIES:Auction
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Lloyd’s deadline tomorrow: Auction
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:lloyds-20260930-83eac2d6b0910e7d@opmodal.com
-DTSTAMP:20260928T050012Z
-DTSTART;TZID=Europe/London:20260930T120000
-SUMMARY:Lloyd's: Contract Certainty Reporting (for  Service Companies bas
- ed in Singapore only) — By the last working day of each month
-DESCRIPTION:By the last working day of each month\n\nApplies to: Lloyd’
- s Asia Service Companies\n\nOfficial entry: https://www.lloyds.com/marke
- t-resources/business-timetable
-URL:https://www.lloyds.com/market-resources/business-timetable
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Lloyd’s deadline tomorrow: Contract Certainty Reporting (fo
- r  Service Companies based in Singapore only)
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:lloyds-20260930-28fd0e99b713318d@opmodal.com
-DTSTAMP:20260928T050012Z
-DTSTART;VALUE=DATE:20260930
-SUMMARY:Lloyd's: Distribution — Interim cash calls to be funded and pai
- d to syndicates on this date.
-DESCRIPTION:Interim cash calls to be funded and paid to syndicates on thi
- s date.\n\n▸ WHY IT MATTERS (Submission Markets): Notifications for me
- mber cash calls. Which syndicates are calling cash versus releasing prof
- it says a lot about the shape of recent years of account.\n\nApplies to:
-  Syndicates\n\nOfficial entry: https://www.lloyds.com/market-resources/b
- usiness-timetable
-URL:https://www.lloyds.com/market-resources/business-timetable
-CATEGORIES:Distribution
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Lloyd’s deadline tomorrow: Distribution
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:lloyds-20260930-6766ababa2d6c93e@opmodal.com
-DTSTAMP:20260928T050012Z
-DTSTART;TZID=Europe/London:20260930T120000
-SUMMARY:Lloyd's: Lloyd's Europe Seconded Underwriters: Disciplinary Attes
- tation Returns (for UK Branch secondees) — For compliance teams to com
- plete on behalf of seconded underwriters. T
-DESCRIPTION:For compliance teams to complete on behalf of seconded underw
- riters. This request and the template for completion are issued by Lloyd
- 's Europe Compliance and HR team direct to the Managing Agent's. Complet
- ed returns must be submitted prior to the 30 September deadline.\n\nAppl
- ies to: Managing Agents\n\nOfficial entry: https://www.lloyds.com/market
- -resources/business-timetable
-URL:https://www.lloyds.com/market-resources/business-timetable
-CATEGORIES:Lloyd's Europe
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Lloyd’s deadline tomorrow: Lloyd's Europe Seconded Underwri
- ters: Disciplinary Attestation Returns (for UK Branch secondees)
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:lloyds-20260930-1147d43aa8f057f2@opmodal.com
-DTSTAMP:20260928T050012Z
-DTSTART;TZID=Europe/London:20260930T120000
-SUMMARY:Lloyd's: Stamp — Deadline for Managing Agents to submit a Regis
- ter of Agents Charges en
-DESCRIPTION:Deadline for Managing Agents to submit a Register of Agents C
- harges entry for syndicates for 2027.\n\nApplies to: Members\n\nOfficial
-  entry: https://www.lloyds.com/market-resources/business-timetable
-URL:https://www.lloyds.com/market-resources/business-timetable
-CATEGORIES:STAMP
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Lloyd’s deadline tomorrow: Stamp
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:lloyds-20260930-fcffa65edc9d0a45@opmodal.com
-DTSTAMP:20260928T050012Z
-DTSTART;VALUE=DATE:20260930
-SUMMARY:Lloyd's: Tax - Member's Agent/DCP Level — return of new W8-BEN 
- forms to replace existing forms that expire at 31
-DESCRIPTION:Deadline for return of new W8-BEN forms to replace existing f
- orms that expire at 31st December 2025 via email and SharePoint\n\nAppli
- es to: Members\n\nOfficial entry: https://www.lloyds.com/market-resource
- s/business-timetable
-URL:https://www.lloyds.com/market-resources/business-timetable
-CATEGORIES:Tax Members Agent and DCP Level
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Lloyd’s deadline tomorrow: Tax - Member's Agent/DCP Level
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:lloyds-20260930-2485c46df6d2acc7@opmodal.com
-DTSTAMP:20260928T050012Z
-DTSTART;VALUE=DATE:20260930
-SUMMARY:Lloyd's: Tax - Member's Agent/DCP Level — submission of UK Tax 
- Residency Declaration forms to Tax Operations - A
-DESCRIPTION:Deadline for submission of UK Tax Residency Declaration forms
-  to Tax Operations - All members via SharePoint (Members Agents) or emai
- l (DCP Members)\n\nApplies to: Members\n\nOfficial entry: https://www.ll
- oyds.com/market-resources/business-timetable
-URL:https://www.lloyds.com/market-resources/business-timetable
-CATEGORIES:Tax Members Agent and DCP Level
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Lloyd’s deadline tomorrow: Tax - Member's Agent/DCP Level
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:lloyds-20261001-eff556b37c1ca94f@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261001T120000
 SUMMARY:Lloyd's: FAL — Deadline for Members to submit requests for Tota
  l Release applications
@@ -214,7 +45,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261001-244f4bbf03a659b0@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261001T120000
 SUMMARY:Lloyd's: FAL/ DCP/ CIL — Member Modeller software updated for P
  hase 2 syndicates’ unapproved SB
@@ -234,7 +65,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261001-4e3c34c40e779ed8@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261001T130000
 SUMMARY:Lloyd's: LCR — Phase 3 syndicates to submit the final Lloyd's C
  apital Return (LCR) ba
@@ -260,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261002-92b17dfd21805e55@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261002T120000
 SUMMARY:Lloyd's: Lloyd's Asia Compliance Report (for  Service Companies b
  ased in Singapore only) — Submission to LA on the 2nd working day of e
@@ -278,7 +109,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261002-2e9a19ea03e2439b@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261002T120000
 SUMMARY:Lloyd's: Onboarding — Deadline for notification of Corporate Co
  nsolidations to be effective
@@ -295,7 +126,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261002-6153c3e7e32f4077@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261002T120000
 SUMMARY:Lloyd's: Onboarding — New applicants including the following: N
  ew Members\, New Third-Party F
@@ -314,7 +145,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261002-ea357877d6906e0e@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;VALUE=DATE:20261002
 SUMMARY:Lloyd's: Tax - Member's Agent/DCP Level — Members included in t
  he Japanese Income Tax return are required to con
@@ -337,7 +168,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261005-175ede58281e920f@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261005T120000
 SUMMARY:Lloyd's: FAL — Applications for additional assets/partial relea
  ses which include a Ti
@@ -354,7 +185,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261006-67038b116856b93f@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;VALUE=DATE:20261006
 SUMMARY:Lloyd's: Lloyd’s Europe - Norwegian Natural Perils Pool - Fire 
  Peril business quarterly return
@@ -372,7 +203,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261008-47f2fdf7898c3ba9@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261008T130000
 SUMMARY:Lloyd's: LCR — Validation - Phase 3 syndicates to submit Valida
  tion report\, by 1pm\, v
@@ -393,7 +224,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261008-625f2a86015944b0@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261008T120000
 SUMMARY:Lloyd's: NonXIS Return
 DESCRIPTION:NonXIS Return\n\nApplies to: Managing Agents\n\nOfficial entr
@@ -408,7 +239,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261009-155d2883adc67c76@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261009T120000
 SUMMARY:Lloyd's: Lloyd’s Europe  - Danish guarantee fund
 DESCRIPTION:Lloyd’s Europe  - Danish guarantee fund\n\nApplies to: Mana
@@ -425,7 +256,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261009-272f6adf54a303e5@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261009T120000
 SUMMARY:Lloyd's: Singapore Risk Registration (for  Service Companies base
  d in Singapore only) — Submission of SRR return to MDC
@@ -442,7 +273,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261011-8bce12357519864e@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261011T120000
 SUMMARY:Lloyd's: Hong Kong Quarterly Catastrophe Claims Data Collection 
  — Submission of No. of Claims Reported\, Value of Claims Paid and Case
@@ -464,7 +295,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261014-49e8fded8ca12ed6@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261014T120000
 SUMMARY:Lloyd's: FAL — Publication of the FAL valuation as at 30 Septem
  ber 2026.
@@ -481,7 +312,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261014-cc74c399ab66dcb7@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;VALUE=DATE:20261014
 SUMMARY:Lloyd's: Lloyd’s Europe Quarterly KRI Submission — Managing a
  gents to complete the LIC KRI submission form and submit it
@@ -500,7 +331,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261014-9ee63cbbda02b444@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261014T140000
 SUMMARY:Lloyd's: Part VII October Submission (Monthly & Initial Load catc
  h-up) — In-scope Part VII Syndicates to submit Part VII Monthly data (
@@ -522,7 +353,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261014-4c19f520390ac571@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;VALUE=DATE:20261014
 SUMMARY:Lloyd's: US Reporting — Electronic packs for US quarterly filin
  g available on ORS.
@@ -539,7 +370,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261015-bf6491a2c7df8710@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261015T120000
 SUMMARY:Lloyd's: FAL/ DCP/ CIL — updated for Phase 3 syndicates’ unap
  proved SBF and LCR submissions.
@@ -559,7 +390,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261015-a14e3ff1086163f5@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261015T120000
 SUMMARY:Lloyd's: FAL/ DCP/ CIL — update for Auction process\, based on 
  agreed ECAs for syndicates with m
@@ -579,7 +410,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261015-8b2492694bbacc6d@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261015T120000
 SUMMARY:Lloyd's: Hong Kong Monthly Claim Return — Monthly Claims must b
  e submitted through the CMR portal. Please note:
@@ -598,7 +429,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261015-3d211ec931d73764@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261015T120000
 SUMMARY:Lloyd's: Hong Kong Monthly Risk Return — Monthly Risks must be 
  submitted through the CMR portal. Please note: f
@@ -617,7 +448,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261015-a8f2f2fc416dc8cb@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261015T120000
 SUMMARY:Lloyd's: Income and Expenditure to MAS (for  Service Companies ba
  sed in Singapore only) — Submission of Q3 2026
@@ -634,7 +465,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261015-0c86ea2afd5ad95a@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261015T120000
 SUMMARY:Lloyd's: MAS Returns (for  Service Companies based in Singapore o
  nly) — Submission of Q3 2026 to MAS on 21 Oct 2026
@@ -651,7 +482,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261015-20f1c6656c68cabf@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261015T140000
 SUMMARY:Lloyd's: Performance Management Data Return — Managing agents t
  o submit Performance Management Data Return for Septe
@@ -670,7 +501,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261015-c21b521f6a7ebe89@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261015T120000
 SUMMARY:Lloyd's: Syndicate Reporting — Managing Agents to submit RRQ re
  turn as at Quarter 3 2026 via CMR.
@@ -687,7 +518,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261016-e2e148934cbfe02a@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261016T120000
 SUMMARY:Lloyd's: Australian Terrorism - ARPC Q3 2026 — Managing Agents 
  to submit the Quarter 3 Australian Reinsurance Pool Co
@@ -706,7 +537,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261016-c956082938039d94@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261016T120000
 SUMMARY:Lloyd's: Data Call: US Louisiana Homeowners' insurance policies\,
   Q3 Report — Managing Agents who have previously submitted data must c
@@ -731,7 +562,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261019-303eb06a3b748562@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261019T120000
 SUMMARY:Lloyd's: Auction — Midday deadline for submission of Auction di
  sclosures pre Auction 1.
@@ -748,7 +579,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261021-578314b224756226@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261021T120000
 SUMMARY:Lloyd's: Auction — Day one of Lloyd's capacity auction number o
  ne.
@@ -765,7 +596,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261021-dc3dfba9fcbda884@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261021T120000
 SUMMARY:Lloyd's: Canadian Reporting — Provision of Canadian reporting p
  acks to market
@@ -782,7 +613,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261021-e0d8e6036e91e9fe@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261021T120000
 SUMMARY:Lloyd's: GST Returns (for  Service Companies based in Singapore o
  nly) — Submission of Q3 2026
@@ -799,7 +630,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261022-f2a8391088858e2e@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261022T120000
 SUMMARY:Lloyd's: Auction — Day two of Lloyd's capacity auction number o
  ne.
@@ -816,7 +647,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261023-74c6ac7771af5a37@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261023T120000
 SUMMARY:Lloyd's: FAL/ DCP/ CIL — Member Modeller software update for ti
  er 2 assets confirmation deadlin
@@ -836,7 +667,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261023-2c3438af09210722@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;VALUE=DATE:20261023
 SUMMARY:Lloyd's: Tax - Syndicate Level — Review & provide US Investment
   Income confirmation in respect of 1042-
@@ -853,7 +684,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261026-80455eefe41aea60@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261026T120000
 SUMMARY:Lloyd's: Auction — Midday deadline for submission of Auction di
  sclosures pre Auction 2.
@@ -870,7 +701,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261026-f3d4b6e93b7b7d5b@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261026T120000
 SUMMARY:Lloyd's: Distribution — Deadline for Managing Agents to notify 
  Member Services of any interim
@@ -890,7 +721,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261027-fa97b88f4d31afc8@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261027T120000
 SUMMARY:Lloyd's: Canadian Reporting — Managing Agents to lock completed
   reporting packs
@@ -907,7 +738,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261028-0caf0660a8434623@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261028T120000
 SUMMARY:Lloyd's: Auction — Day one of Lloyd's capacity auction number t
  wo.
@@ -924,7 +755,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261028-0d1c6335be94f003@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261028T120000
 SUMMARY:Lloyd's: Distribution — Deadline for Member Services to receive
   instructions to transfer 2023
@@ -942,7 +773,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261028-211fddb923da2180@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261028T140000
 SUMMARY:Lloyd's: Syndicate Reporting — QAD return as at Quarter 3 2026 
  via CMR by 2pm.
@@ -959,7 +790,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261028-29c9dae51b301cd9@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261028T170000
 SUMMARY:Lloyd's: Syndicate Reporting — Q3 2026 Quarterly Solvency UK Su
  bmission to be submitted via Corefilin
@@ -976,7 +807,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261028-b3b3a3bec2eaf6d5@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261028T170000
 SUMMARY:Lloyd's: Syndicate Reporting — Supplementary Solvency Data as a
  t Quarter 3 2026 via SecureShare.
@@ -993,7 +824,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261029-bc6b88b23df9ee77@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261029T120000
 SUMMARY:Lloyd's: Auction — Day two of Lloyd's capacity auction number t
  wo.
@@ -1010,7 +841,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261030-9053eb35a2287549@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261030T120000
 SUMMARY:Lloyd's: Contract Certainty Reporting (for  Service Companies bas
  ed in Singapore only) — By the last working day of each month
@@ -1027,7 +858,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261030-09276aa4148a3a69@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261030T170000
 SUMMARY:Lloyd's: Syndicate Reporting — Q3 2026 Syndicate Flash Report t
  o be uploaded onto Secureshare by 5pm
@@ -1046,7 +877,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261030-cc777776d955e76f@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;VALUE=DATE:20261030
 SUMMARY:Lloyd's: US Reporting — Managing Agents to lock completed elect
  ronic reporting packs.
@@ -1063,7 +894,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261031-13d892ae293aef4a@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261031T120000
 SUMMARY:Lloyd's: STAMP — Deadline for resignations where member wishes 
  to be excluded from prov
@@ -1080,7 +911,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261101-ba21c0f147fe7eac@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261101T120000
 SUMMARY:Lloyd's: STAMP — Deadline for provisional stamp constitutions t
  o be in place.
@@ -1097,7 +928,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261102-556d3419e8213d6c@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;VALUE=DATE:20261102
 SUMMARY:Lloyd's: Actuarial Function Report — Managing Agents to submit 
  Actuarial Function Reports and self-assessme
@@ -1117,7 +948,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261102-c4b2a9e56391d790@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261102T120000
 SUMMARY:Lloyd's: Auction — Midday deadline for submission of Auction di
  sclosures pre Auction 3.
@@ -1134,7 +965,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261103-6bde274b871c020f@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261103T120000
 SUMMARY:Lloyd's: FAL — substitutions on a £ for £ basis.
 DESCRIPTION:Deadline for substitutions on a £ for £ basis.\n\nApplies t
@@ -1150,7 +981,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261103-73d0b49615073d84@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261103T120000
 SUMMARY:Lloyd's: FAL — Tier 2 adjustments to FAL. All documentation mus
  t be received by this
@@ -1168,7 +999,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261103-4bdf4ddcdbf47613@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261103T120000
 SUMMARY:Lloyd's: Lloyd's Asia Compliance Report (for  Service Companies b
  ased in Singapore only) — Submission to LA on the 2nd working day of e
@@ -1186,7 +1017,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261104-2614e09ad1cb3cbf@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261104T120000
 SUMMARY:Lloyd's: Auction — Day one of Lloyd's capacity auction number t
  hree.
@@ -1203,7 +1034,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261104-173f60c743dd2f95@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261104T140000
 SUMMARY:Lloyd's: Syndicate Reporting — Q3 2026 QMA Delta Submission to 
  be submitted via MDC by 2pm.
@@ -1220,7 +1051,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261104-2bec58cbd2d91f7a@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;VALUE=DATE:20261104
 SUMMARY:Lloyd's: US Reporting — Receive back notarised jurat pages.
 DESCRIPTION:Receive back notarised jurat pages.\n\nApplies to: Managing A
@@ -1236,7 +1067,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261104-3397506bc364a355@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;VALUE=DATE:20261104
 SUMMARY:Lloyd's: US Reporting — Managing Agents to submit cash transfer
   forms.
@@ -1253,7 +1084,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261105-89b128b9060bd670@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261105T120000
 SUMMARY:Lloyd's: Auction — Day two of Lloyd's capacity auction number t
  hree.
@@ -1270,7 +1101,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261105-c61d79089fc30dc8@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261105T120000
 SUMMARY:Lloyd's: Canadian Reporting — Managing agents to submit cash tr
  ansfer forms
@@ -1287,7 +1118,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261105-5299bdb2aba4f003@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261105T170000
 SUMMARY:Lloyd's: Cyber RDS Refresh Data Collection 2 — Managing Agent t
  o submit the Cyber RDS Refresh data collection templat
@@ -1309,7 +1140,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261105-410486767a58c8f0@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261105T170000
 SUMMARY:Lloyd's: Political Risk & Credit New RDS Data Collection 2 — Ma
  naging Agent to submit the Political Risk & Credit New RDS data coll
@@ -1331,7 +1162,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261105-79eb060dfb6e05b7@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261105T140000
 SUMMARY:Lloyd's: QMB Return(s) — Managing agents to submit QMB for Q3 2
  026 before 14:00 via Market Data
@@ -1351,7 +1182,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261105-d0f5d3954e81ba2f@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261105T120000
 SUMMARY:Lloyd's: US and South Africa Trust Fund Participation Questionnai
  re — Managing Agents are required to submit US and South Africa Trust 
@@ -1371,7 +1202,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261106-fb181600ce248df6@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261106T120000
 SUMMARY:Lloyd's: Agency Reporting — Agents to submit quarterly financia
  l return QF1 for quarter ending 30
@@ -1389,7 +1220,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261106-d9ca525cb3e35b09@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261106T120000
 SUMMARY:Lloyd's: Canadian B2 Reporting - Part II — Managing agents to s
  ubmit the second part of the Canadian B2 regulator
@@ -1408,7 +1239,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261106-ae4b1f233de6f9a5@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261106T120000
 SUMMARY:Lloyd's: Indian Cross Border Reinsurance - Registration - Annual 
  Opt In — Syndicates to submit opt in letters to Lloyd's to transact cr
@@ -1431,7 +1262,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261106-7be8aad2581d4ff7@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261106T120000
 SUMMARY:Lloyd's: NFRA – Quarterly China Reinsurance Registration Return
   (Q3/2026) — China Reinsurance Registration: Confirmation that documen
@@ -1454,7 +1285,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261109-368762b49b35a187@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261109T120000
 SUMMARY:Lloyd's: Overseas Trust Fund — Illinois Trust Fund adjustment\,
   quarter three 2026 settlement date.
@@ -1471,7 +1302,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261110-c98df5d9bfec1437@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261110T120000
 SUMMARY:Lloyd's: Overseas Trust Fund — South Africa Trust Fund adjustme
  nt\, quarter three 2026 settlement date
@@ -1488,7 +1319,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261112-a805d0f58f7253f7@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261112T120000
 SUMMARY:Lloyd's: Canadian Reporting — Cash movement date for LCTF and M
  argin Fund adjustment
@@ -1505,7 +1336,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261112-4dddd533bb140bf0@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261112T120000
 SUMMARY:Lloyd's: Overseas Trust Fund — Australian Trust Fund adjustment
  \, quarter three 2026 settlement date.
@@ -1522,7 +1353,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261112-e46b9e9fc5fec5c2@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261112T120000
 SUMMARY:Lloyd's: Overseas Trust Fund — Canadian Margin Fund adjustment\
  , quarter three 2026 settlement date.
@@ -1539,7 +1370,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261112-06548b991cad9eb9@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;VALUE=DATE:20261112
 SUMMARY:Lloyd's: US Reporting — US situs top up cash movement date.
 DESCRIPTION:US situs top up cash movement date.\n\nApplies to: Managing A
@@ -1555,7 +1386,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261113-3da3c21ff289119d@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261113T120000
 SUMMARY:Lloyd's: FAL/ DCP/ CIL — Member Modeller software update for Q4
   Quarterly Corridor Test ECAs.
@@ -1574,7 +1405,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261113-104c754e97c7ad34@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261113T120000
 SUMMARY:Lloyd's: Lloyd's Europe Seconded Underwriters: Quarterly file rev
  iews of IDD business - Q3 — Lloyd's Europe UK branch will raise reques
@@ -1595,7 +1426,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261113-7781789f1d727dda@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261113T170000
 SUMMARY:Lloyd's: Lloyd’s Defined Stress Test — Deadline for submissio
  n of the Lloyd’s Defined Stress Test\, as part of
@@ -1613,7 +1444,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261113-44842107ade99c1f@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;VALUE=DATE:20261113
 SUMMARY:Lloyd's: Tax - Member's Agent/DCP Level — CAMT Declaration 2 Fo
  rm to be completed by Corporate Members. Sent out
@@ -1631,7 +1462,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261113-f8e26e272c3b908e@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;VALUE=DATE:20261113
 SUMMARY:Lloyd's: Tax - Member's Agent/DCP Level — BEAT 8991 Questionnai
  re to be completed by corporate members that are
@@ -1650,7 +1481,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261116-7a71c3f06e7eb8c8@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261116T120000
 SUMMARY:Lloyd's: Hong Kong Monthly Claim Return — Monthly Claims must b
  e submitted through the CMR portal. Please note:
@@ -1669,7 +1500,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261116-890bcc7e90dc049f@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261116T120000
 SUMMARY:Lloyd's: Hong Kong Monthly Risk Return — Monthly Risks must be 
  submitted through the CMR portal. Please note: f
@@ -1688,7 +1519,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261117-642d8989147aa153@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261117T140000
 SUMMARY:Lloyd's: Part VII November Submission (Monthly & Initial Load cat
  ch-up) — In-scope Part VII Syndicates to submit Part VII Monthly data 
@@ -1710,7 +1541,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261118-d18cdadf97b572ec@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261118T120000
 SUMMARY:Lloyd's: FAL — Publication of the Q4 Quarterly Corridor Test (Q
  CT).
@@ -1729,7 +1560,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261119-158a76f82a974ca5@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261119T120000
 SUMMARY:Lloyd's: Lloyd’s Catastrophe Model (LCM) Quarterly Return — M
  anaging Agent to submit Lloyd's Catastrophe Model (LCM) Return via Se
@@ -1751,7 +1582,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261120-bae2f55345562b51@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261120T120000
 SUMMARY:Lloyd's: Auction — Settlement day for auctions one\, two and th
  ree (debit date).
@@ -1768,7 +1599,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261120-e2935a87612d72ee@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261120T120000
 SUMMARY:Lloyd's: Lloyd's Europe Standard Formula Return 2026 Year End and
   2027 Projection — Managing Agent to submit Lloyd's Europe Standard Fo
@@ -1789,7 +1620,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261120-2305cc6f40b9a57f@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261120T120000
 SUMMARY:Lloyd's: Syndicate Reporting — The 2024 and 2025 YoA syndicate 
  forecasts as a percentage of capacity
@@ -1806,7 +1637,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261124-2e9ec331781829ee@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261124T120000
 SUMMARY:Lloyd's: Auction — Settlement day for auctions one\, two and th
  ree (credit date).
@@ -1823,7 +1654,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261127-c6bab9fd02b63ddb@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261127T120000
 SUMMARY:Lloyd's: Canadian Reporting — Timetable and instructions posted
   to Secure Share
@@ -1840,7 +1671,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261127-02f5e9aa7baa0b2f@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261127T120000
 SUMMARY:Lloyd's: Onboarding — Deadline for submission of Deeds and docu
  mentation for Corporate Conso
@@ -1858,7 +1689,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261127-c0a18e4e66b0e363@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261127T130000
 SUMMARY:Lloyd's: Standard Formula Returns — Managing Agents to submit c
  ompleted Standard Formula SCR template (ava
@@ -1880,7 +1711,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261130-8d1e8774cbb5b08c@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261130T120000
 SUMMARY:Lloyd's: Contract Certainty Reporting (for  Service Companies bas
  ed in Singapore only)
@@ -1897,7 +1728,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261130-b9820dc93bc953e1@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261130T120000
 SUMMARY:Lloyd's: Distribution — Interim cash calls to be funded and pai
  d to syndicates.
@@ -1917,7 +1748,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261130-f88cde7c08881865@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261130T120000
 SUMMARY:Lloyd's: Lloyd's Europe Seconded Underwriters: 2027 Delegation of
   Authority process — Request raised by Lloyd's Europe UK Branch for al
@@ -1937,7 +1768,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261130-8bf9d5d7c86a54ca@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261130T120000
 SUMMARY:Lloyd's: Service Company Audit Template (for  Service Companies b
  ased in Singapore only) — Submission to LA
@@ -1954,7 +1785,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261130-2cfa9205888a7db3@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261130T120000
 SUMMARY:Lloyd's: Stamp — Deadline for members giving up / taking up cap
  acity.
@@ -1971,7 +1802,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261130-bf06195caf6fa51e@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;VALUE=DATE:20261130
 SUMMARY:Lloyd's: Tax - Member's Agent/DCP Level — Treaty Waiver Declara
  tion - Including Member-Level Reinsurance request
@@ -1990,7 +1821,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261201-a2ac41055acc6e33@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261201T120000
 SUMMARY:Lloyd's: Stamp — Deadline date for the receipt of signed 2027 s
  yndicate lists from DCP
@@ -2007,7 +1838,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261202-74a164ad12aac51c@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261202T120000
 SUMMARY:Lloyd's: FAL — prospective Corporate Members to submit their St
  age 2 FAL applications
@@ -2024,7 +1855,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261202-35405ac01709d4b5@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261202T120000
 SUMMARY:Lloyd's: FAL — receipt of all Tier 1 FAL re-arrangement applica
  tions.
@@ -2041,7 +1872,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261202-83b9f1dc6901ff31@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261202T120000
 SUMMARY:Lloyd's: Lloyd's Asia Compliance Report (for  Service Companies b
  ased in Singapore only) — Submission to LA on the 2nd working day of e
@@ -2059,7 +1890,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261202-0bc92b9e09044f86@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261202T120000
 SUMMARY:Lloyd's: Onboarding — Deadline for all prospective Members to s
  ubmit their Stage 2 files and
@@ -2077,7 +1908,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261209-0a1ca796760b2a88@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261209T120000
 SUMMARY:Lloyd's: Stamp — Deadline for Members' Agents confirmation that
   all 2027 syndicate list
@@ -2095,7 +1926,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261211-127f9bb220805ba5@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261211T120000
 SUMMARY:Lloyd's: Indian Cross Border Reinsurance - Registration Pack Subm
  ission (to Lloyd’s) — Please note that any late\, inaccurate or inco
@@ -2114,7 +1945,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261214-b426005045914f5c@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261214T120000
 SUMMARY:Lloyd's: FAL* — End of year distribution of returns on cash man
  aged by Lloyd’s.
@@ -2131,7 +1962,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261214-5795bb92c1e504d5@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261214T140000
 SUMMARY:Lloyd's: Part VII December Submission (Monthly & Initial Load cat
  ch-up) — In-scope Part VII Syndicates to submit Part VII Monthly data 
@@ -2153,7 +1984,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261214-c70f774ab7ec1da2@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;VALUE=DATE:20261214
 SUMMARY:Lloyd's: Q4 2026: GAREAT Large risk return to Lloyd’s Europe in
   France for period 1 January 2026 to 10 December 2026 — For period 1 J
@@ -2172,7 +2003,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261215-0921d5c9b9772216@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261215T120000
 SUMMARY:Lloyd's: Eligible Complainant Return — Request sent to managing
   agents to submit completed template relating
@@ -2191,7 +2022,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261215-652a43e9ebed52ca@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261215T120000
 SUMMARY:Lloyd's: Hong Kong Monthly Claim Return — Monthly Claims must b
  e submitted through the CMR portal. Please note:
@@ -2210,7 +2041,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261215-b0e30824d8364a1c@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261215T120000
 SUMMARY:Lloyd's: Hong Kong Monthly Risk Return — Monthly Risks must be 
  submitted through the CMR portal. Please note: f
@@ -2229,7 +2060,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261216-6bb500853534fa27@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261216T120000
 SUMMARY:Lloyd's: Australian Terrorism - ARPC Scheme Option — Managing A
  gents to submit their syndicate’s opt in letter to the Austr
@@ -2249,7 +2080,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261216-10607b6030561899@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261216T120000
 SUMMARY:Lloyd's: FAL — Deadline for receipt/settlement of additional as
  sets for Members who h
@@ -2269,7 +2100,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261218-b849e4842a7001b9@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;VALUE=DATE:20261218
 SUMMARY:Lloyd's: Tax - Syndicate Level — Submit details of Investment i
  ncome and Capital Gains and Losses on al
@@ -2288,7 +2119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261221-08991b5f1abfb9a9@opmodal.com
-DTSTAMP:20260928T050012Z
+DTSTAMP:20261001T093552Z
 DTSTART;TZID=Europe/London:20261221T120000
 SUMMARY:Lloyd's: FAL — Deadline for receipt/settlement of additional as
  sets or releases for a
