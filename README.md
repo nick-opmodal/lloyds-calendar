@@ -50,7 +50,7 @@ which calls the generator against the live Lloyd's XLSX.
 
 Manual run:
 ```bash
-cd ~/Projects/ElCapo/skunkworks/lloyds-calendar
+cd ~/Projects/ElCapo/Projects/lloyds-calendar
 ~/.hermes/hermes-agent/venv/bin/python generate_lloyds_calendar.py
 ```
 
