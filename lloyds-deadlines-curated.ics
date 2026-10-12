@@ -27,29 +27,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:lloyds-20261008-47f2fdf7898c3ba9@opmodal.com
-DTSTAMP:20261005T050022Z
-DTSTART;TZID=Europe/London:20261008T130000
-SUMMARY:Lloyd's: LCR — Validation - Phase 3 syndicates to submit Valida
- tion report\, by 1pm\, v
-DESCRIPTION:Validation - Phase 3 syndicates to submit Validation report\,
-  by 1pm\, via SecureShare (Lloyds.com>ToolsandSystems>SecureShare>MRC - 
- Syndicate Capital Setting) if not included with the Phase 3 LCR.\n\n▸ 
- WHY IT MATTERS (Submission Markets): The capital return that converts bu
- siness plans into capital requirements. Early-view submissions here shap
- e autumn coming-into-line numbers.\n\nApplies to: Managing Agents\n\nOff
- icial entry: https://www.lloyds.com/market-resources/business-timetable
-URL:https://www.lloyds.com/market-resources/business-timetable
-CATEGORIES:LCR
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Lloyd’s deadline tomorrow: LCR
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:lloyds-20261015-bf6491a2c7df8710@opmodal.com
-DTSTAMP:20261005T050022Z
+DTSTAMP:20261012T050020Z
 DTSTART;TZID=Europe/London:20261015T120000
 SUMMARY:Lloyd's: FAL/ DCP/ CIL — updated for Phase 3 syndicates’ unap
  proved SBF and LCR submissions.
@@ -69,7 +48,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261015-a14e3ff1086163f5@opmodal.com
-DTSTAMP:20261005T050022Z
+DTSTAMP:20261012T050020Z
 DTSTART;TZID=Europe/London:20261015T120000
 SUMMARY:Lloyd's: FAL/ DCP/ CIL — update for Auction process\, based on 
  agreed ECAs for syndicates with m
@@ -89,7 +68,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261023-74c6ac7771af5a37@opmodal.com
-DTSTAMP:20261005T050022Z
+DTSTAMP:20261012T050020Z
 DTSTART;TZID=Europe/London:20261023T120000
 SUMMARY:Lloyd's: FAL/ DCP/ CIL — Member Modeller software update for ti
  er 2 assets confirmation deadlin
@@ -109,7 +88,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261026-f3d4b6e93b7b7d5b@opmodal.com
-DTSTAMP:20261005T050022Z
+DTSTAMP:20261012T050020Z
 DTSTART;TZID=Europe/London:20261026T120000
 SUMMARY:Lloyd's: Distribution — Deadline for Managing Agents to notify 
  Member Services of any interim
@@ -129,7 +108,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261030-09276aa4148a3a69@opmodal.com
-DTSTAMP:20261005T050022Z
+DTSTAMP:20261012T050020Z
 DTSTART;TZID=Europe/London:20261030T170000
 SUMMARY:Lloyd's: Syndicate Reporting — Q3 2026 Syndicate Flash Report t
  o be uploaded onto Secureshare by 5pm
@@ -148,7 +127,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261105-5299bdb2aba4f003@opmodal.com
-DTSTAMP:20261005T050022Z
+DTSTAMP:20261012T050020Z
 DTSTART;TZID=Europe/London:20261105T170000
 SUMMARY:Lloyd's: Cyber RDS Refresh Data Collection 2 — Managing Agent t
  o submit the Cyber RDS Refresh data collection templat
@@ -170,7 +149,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261105-410486767a58c8f0@opmodal.com
-DTSTAMP:20261005T050022Z
+DTSTAMP:20261012T050020Z
 DTSTART;TZID=Europe/London:20261105T170000
 SUMMARY:Lloyd's: Political Risk & Credit New RDS Data Collection 2 — Ma
  naging Agent to submit the Political Risk & Credit New RDS data coll
@@ -192,7 +171,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261105-79eb060dfb6e05b7@opmodal.com
-DTSTAMP:20261005T050022Z
+DTSTAMP:20261012T050020Z
 DTSTART;TZID=Europe/London:20261105T140000
 SUMMARY:Lloyd's: QMB Return(s) — Managing agents to submit QMB for Q3 2
  026 before 14:00 via Market Data
@@ -212,7 +191,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261113-3da3c21ff289119d@opmodal.com
-DTSTAMP:20261005T050022Z
+DTSTAMP:20261012T050020Z
 DTSTART;TZID=Europe/London:20261113T120000
 SUMMARY:Lloyd's: FAL/ DCP/ CIL — Member Modeller software update for Q4
   Quarterly Corridor Test ECAs.
@@ -231,7 +210,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261118-d18cdadf97b572ec@opmodal.com
-DTSTAMP:20261005T050022Z
+DTSTAMP:20261012T050020Z
 DTSTART;TZID=Europe/London:20261118T120000
 SUMMARY:Lloyd's: FAL — Publication of the Q4 Quarterly Corridor Test (Q
  CT).
@@ -250,7 +229,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261127-c0a18e4e66b0e363@opmodal.com
-DTSTAMP:20261005T050022Z
+DTSTAMP:20261012T050020Z
 DTSTART;TZID=Europe/London:20261127T130000
 SUMMARY:Lloyd's: Standard Formula Returns — Managing Agents to submit c
  ompleted Standard Formula SCR template (ava
@@ -272,7 +251,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261130-b9820dc93bc953e1@opmodal.com
-DTSTAMP:20261005T050022Z
+DTSTAMP:20261012T050020Z
 DTSTART;TZID=Europe/London:20261130T120000
 SUMMARY:Lloyd's: Distribution — Interim cash calls to be funded and pai
  d to syndicates.
@@ -292,7 +271,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261216-10607b6030561899@opmodal.com
-DTSTAMP:20261005T050022Z
+DTSTAMP:20261012T050020Z
 DTSTART;TZID=Europe/London:20261216T120000
 SUMMARY:Lloyd's: FAL — Deadline for receipt/settlement of additional as
  sets for Members who h
@@ -312,7 +291,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lloyds-20261221-08991b5f1abfb9a9@opmodal.com
-DTSTAMP:20261005T050022Z
+DTSTAMP:20261012T050020Z
 DTSTART;TZID=Europe/London:20261221T120000
 SUMMARY:Lloyd's: FAL — Deadline for receipt/settlement of additional as
  sets or releases for a
