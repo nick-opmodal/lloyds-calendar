@@ -1,4 +1,4 @@
-# Lloyd's Deadlines — Calendar Feed for Submission Markets
+# Lloyd's Deadlines: Calendar Feed for Submission Markets
 
 Subscribable ICS calendar of Lloyd's Business Timetable deadlines with
 opmodal editorial commentary. Two outputs:
@@ -7,6 +7,24 @@ opmodal editorial commentary. Two outputs:
   8-week window. Subscribers get the complete timetable in their calendar.
 - **Curated feed** (`lloyds-deadlines-curated.ics`): only deadlines with
   opmodal commentary attached. ~17 events at any time, high-signal.
+
+## MCP connector (Claude directory)
+
+`Lloyd's Market Calendar` is listed in Claude's connector directory as a
+read-only MCP server.
+
+- **Endpoint:** `https://cal.opmodal.ai/mcp`: no account, no auth
+- **Tools:**
+  - `upcoming_deadlines`: deadlines over the next N weeks (default 4)
+  - `deadlines_on`: everything due on a given day (today, tomorrow, any date)
+  - `search_deadlines`: find deadlines by topic or keyword
+  - `deadline_detail`: full entry for one deadline, including submission
+    instructions and commentary
+- **Data:** the official Lloyd's Business Timetable, refreshed weekly, with
+  opmodal's editorial commentary. Always verify against the official
+  timetable at lloyds.com.
+- **Privacy:** https://calendar.subscriptionmarket.news/privacy
+- **Support:** app.support@opmodal.com
 
 ## How it works
 
@@ -23,8 +41,8 @@ Lloyd's XLSX export ──→ generate_lloyds_calendar.py ──→ .ics file
 | File | Purpose |
 |------|---------|
 | `generate_lloyds_calendar.py` | Downloads Lloyd's timetable XLSX, parses deadlines, attaches commentary, emits RFC 5545 ICS |
-| `commentary.yaml` | Editorial layer — regex rules matching deadlines to opmodal commentary and article links |
-| `regenerate.sh` | Wrapper script for cron/CI — runs generator and reports stats |
+| `commentary.yaml` | Editorial layer: regex rules matching deadlines to opmodal commentary and article links |
+| `regenerate.sh` | Wrapper script for cron/CI: runs generator and reports stats |
 | `newsletter-fortnight-ahead.html` | Beehiiv-ready HTML block for the "Fortnight Ahead" section in Submission Markets |
 | `lloyds-deadlines.ics` | Generated full feed (71 events as of 2026-07-28) |
 | `lloyds-deadlines-curated.ics` | Generated curated feed (only events with commentary, ~17 events) |
@@ -38,7 +56,7 @@ Edit `commentary.yaml`. Each rule:
   comment: >-               # "Why it matters" text
     The Quarterly Monitoring Return is the performance data Lloyd's uses
     to track plan versus actual.
-  month: "2026-09"          # optional — only apply in this month
+  month: "2026-09"          # optional: only apply in this month
 ```
 
 First matching rule wins. Put specific rules above general ones.
@@ -78,6 +96,6 @@ Update the `href` in `newsletter-fortnight-ahead.html` when the URL is chosen.
 
 - Commentary is Opmodal's own; deadline data remains Lloyd's. The calendar
   description includes the disclaimer: "Always verify against the official timetable."
-- UIDs are stable (date + title hash) — regeneration updates events in place,
+- UIDs are stable (date + title hash): regeneration updates events in place,
   no duplicates in subscribers' calendars.
 - Check Lloyd's terms of use regarding automated XLSX retrieval.
