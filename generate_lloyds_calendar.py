@@ -46,7 +46,7 @@ BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
 CAL_NAME = "Lloyd's Deadlines - by Opmodal"
 CAL_DESC = (
     "Key Lloyd's business timetable deadlines with commentary from the "
-    "Submission Markets team at Opmodal. Data: lloyds.com. "
+    "Subscription Market team at Opmodal. Data: lloyds.com. "
     "Always verify against the official timetable."
 )
 UID_DOMAIN = "opmodal.com"
@@ -349,7 +349,7 @@ def build_ics(events: list[dict], rules: list[dict], curated_only: bool) -> str:
         lines.append(f"SUMMARY:{esc(summary)}")
         desc = ev["description"] or ev["title"]
         if comment:
-            desc += f"\n\n▸ WHY IT MATTERS (Submission Markets): {comment}"
+            desc += f"\n\n▸ WHY IT MATTERS (Subscription Market): {comment}"
         if ev["participant"]:
             desc += f"\n\nApplies to: {ev['participant']}"
         desc += f"\n\nOfficial entry: {TIMETABLE_URL}"

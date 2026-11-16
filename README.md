@@ -1,4 +1,4 @@
-# Lloyd's Deadlines: Calendar Feed for Submission Markets
+# Lloyd's Deadlines: Calendar Feed for Subscription Market
 
 Subscribable ICS calendar of Lloyd's Business Timetable deadlines with
 opmodal editorial commentary. Two outputs:
@@ -43,7 +43,7 @@ Lloyd's XLSX export ──→ generate_lloyds_calendar.py ──→ .ics file
 | `generate_lloyds_calendar.py` | Downloads Lloyd's timetable XLSX, parses deadlines, attaches commentary, emits RFC 5545 ICS |
 | `commentary.yaml` | Editorial layer: regex rules matching deadlines to opmodal commentary and article links |
 | `regenerate.sh` | Wrapper script for cron/CI: runs generator and reports stats |
-| `newsletter-fortnight-ahead.html` | Beehiiv-ready HTML block for the "Fortnight Ahead" section in Submission Markets |
+| `newsletter-fortnight-ahead.html` | Beehiiv-ready HTML block for the "Fortnight Ahead" section in Subscription Market |
 | `lloyds-deadlines.ics` | Generated full feed (71 events as of 2026-07-28) |
 | `lloyds-deadlines-curated.ics` | Generated curated feed (only events with commentary, ~17 events) |
 
